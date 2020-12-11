@@ -1,0 +1,1150 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Animatecss
+@import '~animate.css/animate';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+.text-black{
+    color: black !important;    
+}
+
+.pdl-15{
+    padding-left: 15px !important;
+}
+
+.services{
+    width: 50rem !important;
+}
+
+.btn-width{
+    width: 15rem !important;
+}
+
+.navbar-trans{
+    background: transparent !important; 
+}
+
+.bottom-nav{
+    flex: 1;
+    margin: auto !important;
+    justify-content: space-between;
+}
+
+.custom-btn{
+    border-width: medium;
+    border-radius: 20px;
+}
+
+//Background Colors
+.custom-dblue{
+    color: black;
+    background: linear-gradient(to bottom, #ffffff 0%,#93c1ed 38%,#93c1ed 38%,#5da6ef 65%,#1e69de 100%);
+}
+
+.custom-orange{
+    color: black;
+    background: linear-gradient(to bottom, #ffffff 0%,#ff9659 50%,#ff9659 50%,#ff670f 100%);
+    border-color: orange;
+}
+
+.custom-magenta{
+    color: black;
+    background: linear-gradient(to bottom, #ffffff 0%,#f29fd8 35%,#d34c8f 69%,#d34c8f 69%,#d4076f 100%);
+    border-color: red;
+}
+
+.custom-green{
+    color: black;
+    background: linear-gradient(to bottom, #fdfc47, #24fe41);
+    border-color: #12f912;
+}
+
+.custom-purple{
+    color: black;
+    background: linear-gradient(to bottom, #d9a1ea 9%,#b255b0 50%,#77157c 76%,#5f2674 100%);
+    border-color: purple;
+}
+
+.custom-red{
+    color: black;
+    background: linear-gradient(to bottom, #ffffff 0%,#ff1a00 100%);
+    border-color: red;
+}
+
+.custom-blue{
+    color: black;
+    background: linear-gradient(to bottom, #a8ff78, #78ffd6);
+}
+
+.custom-yellow{
+    color: black;
+    background: linear-gradient(to bottom, #fefcea 0%,#efe664 65%,#efcf00 100%);
+    border-color: yellow;
+}
+
+.rainbow-blue{
+    color: black;
+    background: linear-gradient(to bottom, #00f260, #0575e6);
+    border-color: blue;
+}
+
+.honey-dew{
+    color: black;
+    background: linear-gradient(to bottom, #00c3ff, #ffff1c);
+    border-color: yellow;
+}
+
+.flare{
+    color: black;
+    background: linear-gradient(to bottom, #f12711, #f5af19);
+    border-color: orange;
+}
+
+.piggy-pink{
+    background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+}
+
+.ibiza-sunset{
+    color: black;
+    background: linear-gradient(to bottom, #ee0979, #ff6a00);
+    border-color: red;    
+}
+
+.purple{
+    background-color: #673ab7;
+    border-color: #673ab7;
+}
+
+.bluish-green{
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+//endcolors
+
+.bottombar{
+    z-index: 1001;
+}
+
+.bottombar-btn{
+    color: white !important;
+}
+
+@media screen and (min-width: 1920px)
+{
+    .responsive-text{
+        font-size: 1.4vw !important;
+    }
+
+    .btn-text{
+        font-size: 1.4vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 6vw !important;
+    }
+
+    .frontimages{
+        margin-top: -2vw !important;
+        z-index: -1 !important;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 3.2vw !important;
+        display: block;
+        color: white !important;
+        background-color: #3490dc !important;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 2.4vw !important;
+        line-height: 1.5vw !important;
+        width: 100% !important !important;
+        max-width: 50vw !important !important;
+        margin-top: 26px !important !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+    }
+
+    .front-buttons{
+        justify-content: flex-start !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        height: 15rem !important;
+    }
+
+    .h35{
+        height: 35rem !important;
+        max-height: 35rem !important;
+    }
+
+    .h50{
+        height: 50rem !important;
+        max-height: 50rem !important;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 20rem;
+        width: auto;
+        filter: invert(1);
+    }
+
+    .teacher{
+        z-index: -1;
+        display: inline-block;
+        width: 50rem;
+        margin-left: 5rem;
+    }
+    
+    .mt-8{
+        margin-top: 12rem !important;
+    }
+
+    .mob-r{
+        margin-right: 3rem !important;
+    }
+
+    .mob-l{
+        margin-left: 3rem !important;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px)
+{
+    .responsive-text{
+        font-size: 1.1vw !important;
+    }
+
+    .btn-text{
+        font-size: 1.4vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 6vw !important;
+    }
+
+    .frontimages{
+        margin-top: -2vw !important;
+        z-index: -1 !important;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 3.2vw !important;
+        display: block;
+        color: white !important;
+        background-color: #3490dc !important;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 2.4vw !important;
+        line-height: 1.5vw !important;
+        width: 100% !important !important;
+        max-width: 50vw !important !important;
+        margin-top: 26px !important !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+    }
+
+    .front-buttons{
+        justify-content: flex-start !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        height: 15rem !important;
+    }
+
+    .h35{
+        height: 35rem !important;
+        max-height: 35rem !important;
+    }
+
+    .h50{
+        height: 48em !important;
+        max-height: 50rem !important;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 20rem;
+        width: auto;
+        filter: invert(1);
+    }
+
+    .teacher{
+        z-index: -1;
+        display: inline-block;
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .mt-8{
+        margin-top: 11rem !important;
+    }
+
+    .carousel-div{
+        margin-top: 9rem !important;
+    }
+
+    .mob-r{
+        margin-right: 3rem !important;
+    }
+
+    .mob-l{
+        margin-left: 3rem !important;
+    }
+
+    .onlineclasspic{
+        height: 49.5rem !important;
+        width: 118.9rem !important;
+    }
+
+    .coursebox {
+        height: 15rem !important;
+        width: 25rem !important;
+    }
+
+    .services{
+        width: 50rem !important;
+        margin-bottom: 3rem !important;
+        margin-right: 1rem !important;
+    }
+}
+@media screen and (max-width: 1599px) and (min-width: 1200px)
+{
+    .btn-text{
+        font-size: 1.7vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 5vw !important;
+    }
+
+    .frontimages{
+        margin-top: -2vw !important;
+        z-index: -1 !important;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 3.2vw !important;
+        display: block;
+        color: white !important;
+        background-color: #3490dc !important;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 2.4vw !important;
+        line-height: 1.5vw !important;
+        width: 100% !important !important;
+        max-width: 50vw !important !important;
+        margin-top: 26px !important !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+    }
+
+    .front-buttons{
+        justify-content: flex-start !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        height: 15rem !important;
+    }
+
+    .h35{
+        height: 30rem !important;
+        max-height: 35rem !important;
+    }
+
+    .h50{
+        height: 40rem !important;
+        max-height: 50rem !important;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 15rem;
+        width: auto;
+        filter: invert(1);
+    }
+    .teacher{
+        z-index: -1;
+        display: inline-block;
+        width: 40rem;
+    }
+    .mt-8{
+        margin-top: 8rem !important;
+    }
+    .carousel-div{
+        margin-top: 6rem !important;
+    }
+
+    .mob-r{
+        margin-right: 3rem !important;
+    }
+
+    .mob-l{
+        margin-left: 3rem !important;
+    }
+
+    .onlineclasspic{
+        height: 33rem !important;
+        width: 84rem !important;
+    }
+
+    .coursebox {
+        height: 15rem !important;
+        width: 20rem !important;
+    }
+
+    .services{
+        width: 40rem !important;
+        margin-bottom: 1.5rem !important;
+        margin-right: 1rem !important;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px)
+{
+    .responsive-text{
+        font-size: 2vw !important;
+    }
+
+    .btn-text{
+        font-size: 2vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 7vw !important;
+    }
+
+    .frontimages{
+        margin-top: -2vw !important;
+        z-index: -1 !important;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 4vw !important;
+        display: block;
+        color: white !important;
+        background-color: #3490dc !important;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 2.4vw !important;
+        line-height: 1.5vw !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+    }
+
+    .front-buttons{
+        justify-content: flex-start !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        height: 15rem !important;
+    }
+
+    .h35{
+        height: 23rem;
+        max-height: 28rem !important;
+    }
+
+    .h50{
+        height: 22.2rem;
+        max-height: 30rem !important;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 12rem;
+        width: auto;
+        filter: invert(1);
+    }
+
+    .mt-8{
+        margin-top: 8rem !important;
+    }
+
+    .carousel-div{
+        margin-top: 6rem !important;
+    }
+
+    .mob-r{
+        margin-right: 3rem !important;
+    }
+
+    .mob-l{
+        margin-left: 3rem !important;
+    }
+
+    .coursebox {
+        height: 10rem !important;
+        width: 31.4rem !important;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 500px)
+{
+    .responsive-text{
+        font-size: 2.5vw !important;
+    }
+
+    .btn-text{
+        font-size: 2.5vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 8vw !important;
+    }
+
+    .frontimages{
+        margin-top: -2vw !important;
+        z-index: -1 !important;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 4vw !important;
+        display: block;
+        color: white !important;
+        background-color: #3490dc !important;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 2.4vw !important;
+        line-height: 1.5vw !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+    }
+
+    .front-buttons{
+        justify-content: center !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        height: 15rem !important;
+    }
+
+    .h35{
+        height: 22rem;
+        max-height: 28rem !important;
+    }
+
+    .h50{
+        height: 24.4rem;
+        max-height: 30rem !important;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 12rem;
+        width: auto;
+        filter: invert(1);
+    }
+    .mt-8{
+        margin-top: 6rem !important;
+    }
+
+    .carousel-div{
+        margin-top: 6rem !important;
+    }
+
+    .mob-r{
+        margin-right: 3rem !important;
+    }
+
+    .mob-l{
+        margin-left: 3rem !important;
+    }
+
+    .coursebox {
+        height: 10rem !important;
+        width: 23.6rem !important;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 321px)
+{
+    .responsive-text{
+        font-size: 4.5vw !important;
+    }
+
+    .btn-text{
+        font-size: 2vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 17vw;
+        margin-left: -15vw
+    }
+
+    .frontimages{
+        margin-top: -2vw;
+        z-index: -1;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 7vw;
+        color: black !important;
+        display: block;
+        text-align: center;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 4.5vw;
+        line-height: 1.5vw;
+        margin-top: 26px !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+        text-align: center;
+    }
+
+    .front-buttons{
+        justify-content: center !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        max-height: 8rem;
+    }
+
+    .h35{
+        height: 19rem;
+        max-height: 20rem;
+    }
+
+    .h50{
+        height: 30rem;
+        max-height: 40rem;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 9rem;
+        width: auto;
+        filter: invert(1);
+    }
+    .mt-8{
+        margin-top: 6rem !important;
+    }
+
+    .carousel-div{
+        margin-top: 6rem !important;
+    }
+
+    .mob-r{
+        margin-right: 0rem !important;
+    }
+
+    .mob-l{
+        margin-left: 0rem !important;
+    }
+
+    .coursebox {
+        height: 12rem !important;
+        width: 12.99rem !important;
+    }
+
+    .custom-btn{
+        font-size: 1.1rem !important;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .responsive-text{
+        font-size: 4.5vw !important;
+    }
+
+    .upfront{
+        z-index: 1000 !important;
+    }
+
+    .logo-size{
+        max-height: 20vw;
+        margin-left: -10vw
+    }
+
+    .frontimages{
+        margin-top: -2vw;
+        z-index: -1;
+        display: inline-block;
+    }
+
+    .front-header{
+        font-size: 7vw;
+        color: black !important;
+        display: block;
+        text-align: center;
+    }
+
+    .header-spans{
+        vertical-align: text-bottom !important;
+        display: inline !important;
+    }
+
+    .front-font{
+        font-size: 5.5vw;
+        line-height: 1.5vw;
+        margin-top: 26px !important;
+        margin-bottom: 16px !important;
+        color: black !important;
+        letter-spacing: -0.1px !important;
+        text-align: center;
+    }
+
+    .front-buttons{
+        justify-content: center !important;
+    }
+
+    .front-button{
+        height: 5vw !important;
+        width: 10vw !important;
+        font-size: 1.7vw !important;
+    }
+
+    .h15{
+        max-height: 8rem;
+    }
+
+    .h35{
+        height: 20rem;
+        max-height: 20rem;
+    }
+
+    .h50{
+        height: 35rem;
+        max-height: 35rem;
+    }
+
+    .onlineclass{
+        background-color: #1c74bc;
+        z-index: 1;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .learnicon{
+        max-height: 8rem;
+        width: auto;
+        filter: invert(1);
+    }
+    .mt-8{
+        margin-top: 8rem !important;
+    }
+
+    .carousel-div{
+        margin-top: 8rem !important;
+    }
+
+    .mob-r{
+        margin-right: 0rem !important;
+    }
+
+    .mob-l{
+        margin-left: 0rem !important;
+    }
+
+    .coursebox {
+        height: 12rem !important;
+        width: 9.7rem !important;
+    }
+}
+
+.section-table-div {
+    height: 20.6rem !important;
+}
+
+.section-table {
+    height: 16rem !important;
+}
+
+.sub-table{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.exam-form-h-25{
+    max-height: 35rem;
+    overflow-y: scroll;
+}
+
+//isupport
+/* Container holding the image and the text */
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #000;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #000;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: unset;
+}
+
+.no-max-width{
+    max-width: unset !important;
+}
+
+.border-unset{
+    border: unset !important;
+}
+
+//products
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.dropdown-toggle:after {
+    right: 5px !important;
+}
+
+//square dashboard
+.btn-squared-default
+{
+    width: 20rem !important;
+    height: 20rem !important;
+}
+
+.btn-squared-default:hover
+{
+    border: 3px solid white;
+    font-weight: 800;
+}
+
+.modal-backdrop{
+    background-color: #000000ba !important;
+}
+
+img[src*="img-fluid"] {
+   width:50%;
+   height:auto;
+}
+
+.mNavicon{
+    max-height: 4rem;
+}
